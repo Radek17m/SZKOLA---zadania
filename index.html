@@ -8,7 +8,7 @@
 <body>
     <center><h1>Konwerter jednostek</h1></center>
     <script>
-        document.write('Witatmy w konwerterze: ')
+        document.write('Witatmy w konwerterze: ' '<p>')
 
         let jednostka = (prompt('Na jaką jednostkę chcesz przeliczyć km czy mile?'));
 
@@ -22,7 +22,7 @@
             document.write('wpisz poprawnie ilosc km/mil')
         }
         if(jednostka ==='km') {
-            document.write((ilosc) , 'km to:'  +(ilosc * 0.621)+  'mil' );
+            document.write((ilosc) , 'km to: '  +(ilosc * 0.621)+  'mil' );
         }
         if(jednostka === "mile") {
             document.write((ilosc) , 'mil to: '  +(ilosc * 1.621)+  'km' );
